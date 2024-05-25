@@ -1,3 +1,4 @@
+// require method
 const test = require('./test.js')
 
 
