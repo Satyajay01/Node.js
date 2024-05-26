@@ -1,7 +1,11 @@
 import http from "http";
+import fs from "fs";
+
 
 const PORT = 8080;
 const hostname = "localhost";
+
+const home = fs.readFileSync("./index.html","utf-8")
 
 const server = http.createServer((request, response) => {
     console.log(request.url);
@@ -10,7 +14,7 @@ const server = http.createServer((request, response) => {
         response.end("<h1>This is the home page</h1>");
     } 
     else if (request.url === "/home") {
-        response.end("<h1>This is the Home page</h1>");
+        response.end(home);
     }
     else if (request.url === "/about") {
         response.end("<h1>This is the About page</h1>");
