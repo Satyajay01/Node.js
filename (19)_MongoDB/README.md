@@ -1,17 +1,17 @@
 # MongoDB
 MongoDB is a NoSQL database in which data is stored as objects from.
 
-### Mongodb official website Url: 
+#### Mongodb official website Url: 
 ```
 https://www.mongodb.com 
 ```
 
-### Download MongoDB Installer: 
+#### Download MongoDB Installer: 
 ```
 https://www.mongodb.com/try/download/community
 ```
 
-### MongoDB Shell Download: 
+#### MongoDB Shell Download: 
 ```
 https://www.mongodb.com/try/download/shell
 ```
@@ -22,6 +22,7 @@ MongoDBCompass_GUI is installed automatically with the MongoDB installer.
 
 
 ## MongoDB Shell/Command prompt/terminal
+
 
 
 - Start MongoDB Server:
@@ -36,7 +37,7 @@ MongoDBCompass_GUI is installed automatically with the MongoDB installer.
  show dbs
 ```
 
-- Example Output:
+- Example Output:-
 
 ```
 test> show dbs
@@ -81,5 +82,22 @@ db.myNewCollection.insertOne({ name: "Satyajay dibya", age: 22, city: "India" })
 }
 ```
 
+
+### To delete a database from MongoDB.
+
+
+- Switch to the Database:
+
+```
+use DatabaseName
+```
+
+- Output:-
+```
+{
+    "dropped": "myDatabase",
+    "ok": 1
+}
+```
 
 
