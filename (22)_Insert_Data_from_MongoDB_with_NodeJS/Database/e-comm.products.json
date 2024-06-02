@@ -1,0 +1,53 @@
+[{
+  "_id": {
+    "$oid": "665c4db9981cdd01f5d8642b"
+  },
+  "name": "i phone max pro",
+  "brand": "apple",
+  "price": "1200",
+  "category": "mobile"
+},
+{
+  "_id": {
+    "$oid": "665c4ee2981cdd01f5d8642c"
+  },
+  "name": "M 40",
+  "brand": "Sumsung",
+  "price": "300",
+  "category": "mobile"
+},
+{
+  "_id": {
+    "$oid": "665c4f16981cdd01f5d8642d"
+  },
+  "name": "Nokia 1100",
+  "brand": "Nokia",
+  "price": "100"
+},
+{
+  "_id": {
+    "$oid": "665cbfb77d4df739bdbfacdd"
+  },
+  "name": "Realme 10",
+  "brand": "Realme",
+  "price": "370",
+  "category": "mobile"
+},
+{
+  "_id": {
+    "$oid": "665cbfb77d4df739bdbfacde"
+  },
+  "name": "s24 ultra",
+  "brand": "samsung",
+  "price": "400",
+  "category": "mobile"
+},
+{
+  "_id": {
+    "$oid": "665cbfb77d4df739bdbfacdf"
+  },
+  "name": "Vivo V5",
+  "brand": "Vivo",
+  "price": "350",
+  "category": "mobile"
+}]
