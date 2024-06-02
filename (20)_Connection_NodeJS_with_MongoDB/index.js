@@ -23,8 +23,13 @@ async function getData()
     // Connection to the database Collections/Table
     let collection = db.collection(products);
 
-    // Handling the Returned Promise
-    let response = await collection.find({}).toArray()
+    // Handling the Returned Promise-----
+    
+    // To get a only one data
+    // let response = await collection.find({"name": "M 40"}).toArray();
+    
+    // to gat all Collections data 
+    let response = await collection.find({}).toArray();
 
     // print Collections/Table Data
     console.log(response);
