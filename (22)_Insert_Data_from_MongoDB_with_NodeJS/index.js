@@ -2,6 +2,9 @@ import dbConnect from './Connection/MongoDB.js';
 
 const insert = async () => {
     const db = await dbConnect();
+    
+    // single data Insert--- insertOne 
+    // multiple data Insert--- insertMany
     const result = await db.insertMany(
         // for the only one data insert---
         // {"name": "Realme 8 5g", "brand": "Realme", "price": "380", "category": "mobile"}
