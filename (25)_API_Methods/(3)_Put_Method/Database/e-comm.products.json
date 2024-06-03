@@ -1,0 +1,117 @@
+[{
+  "_id": {
+    "$oid": "665c4db9981cdd01f5d8642b"
+  },
+  "name": "i phone max pro",
+  "brand": "apple",
+  "price": "1200",
+  "category": "mobile"
+},
+{
+  "_id": {
+    "$oid": "665c4ee2981cdd01f5d8642c"
+  },
+  "name": "M 40",
+  "brand": "Sumsung",
+  "price": "300",
+  "category": "mobile"
+},
+{
+  "_id": {
+    "$oid": "665cbfb77d4df739bdbfacdd"
+  },
+  "name": "Realme 8 5g",
+  "brand": "Realme",
+  "price": "400",
+  "category": "mobile"
+},
+{
+  "_id": {
+    "$oid": "665cbfb77d4df739bdbfacde"
+  },
+  "name": "s24 ultra",
+  "brand": "samsung",
+  "price": "400",
+  "category": "mobile"
+},
+{
+  "_id": {
+    "$oid": "665db453fa1ee06f41c9ebdf"
+  },
+  "name": "Realme 10 pro",
+  "brand": "Realme",
+  "price": "460",
+  "category": "mobile"
+},
+{
+  "_id": {
+    "$oid": "665db453fa1ee06f41c9ebe0"
+  },
+  "name": "s24 ultra",
+  "brand": "samsung",
+  "price": "400",
+  "category": "mobile"
+},
+{
+  "_id": {
+    "$oid": "665db4626870fa2b2d4615ce"
+  },
+  "name": "Realme 10 pro",
+  "brand": "Realme",
+  "price": "460",
+  "category": "mobile"
+},
+{
+  "_id": {
+    "$oid": "665db4626870fa2b2d4615cf"
+  },
+  "name": "s24 ultra",
+  "brand": "samsung",
+  "price": "400",
+  "category": "mobile"
+},
+{
+  "_id": {
+    "$oid": "665db46a596d536cab74f58d"
+  },
+  "name": "Realme 10 pro",
+  "brand": "Realme",
+  "price": "460",
+  "category": "mobile"
+},
+{
+  "_id": {
+    "$oid": "665db46a596d536cab74f58e"
+  },
+  "name": "s24 ultra",
+  "brand": "samsung",
+  "price": "400",
+  "category": "mobile"
+},
+{
+  "_id": {
+    "$oid": "665dfb7b78e01c73262d3b87"
+  },
+  "name": "Vivo u20",
+  "brand": "Vivo",
+  "price": "450",
+  "category": "mobile"
+},
+{
+  "_id": {
+    "$oid": "665dfc8578e01c73262d3b88"
+  },
+  "name": "Redmi Note 13 5g",
+  "brand": "Redmi",
+  "price": "380",
+  "category": "mobile"
+},
+{
+  "_id": {
+    "$oid": "665dfc8578e01c73262d3b89"
+  },
+  "name": "Xiaomi 14 Ultra",
+  "brand": "Xiaomi",
+  "price": 500,
+  "category": "mobile"
+}]
