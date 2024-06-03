@@ -10,10 +10,19 @@ import dbConnect from './Connection/MongoDB.js'
 
 // handle with async, await method 2--
 
-const main = async ()=>{
+const ReadData = async ()=>{
     let data = await dbConnect();
-    // data = await data.find({ name: 'M 40'}).toArray();
-    data = await data.find({}).toArray();
-    console.warn(data)
+
+        // single data Read--- findOne 
+        // multiple data Read--- find
+
+    data = await data.findOne({ name: 'M 40'});
+
+    // data = await data.find({}).toArray();
+    console.log(data)
 }
-main()
+ReadData()
+
+
+
+
