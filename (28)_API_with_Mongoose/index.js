@@ -24,6 +24,17 @@ app.post("/create", async (req, res)=>{
 });
 
 
+// Put (update) method
+// url (http://localhost:5000/update/665f4748153464b651c0757b)
+app.put("/update/:_id", async (req, res)=>{
+    const data = new Product(req.body);
+    const result = await data.updateOne(
+        req.params,
+        {$set: req.body}
+    );
+    console.log("Data Updated",data);
+    res.send(result)
+});
 
 
 // Delete method
